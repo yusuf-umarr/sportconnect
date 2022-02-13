@@ -1,0 +1,59 @@
+name: sportconnect
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.0.0
+  flutter_native_splash:
+  pin_code_fields:
+  shared_preferences:
+  flutter_launcher_icons: ^0.9.2
+  flutter_spinkit: ^5.1.0
+  connectivity: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/onboarding/
+    - assets/background/
+
+  fonts:
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/Outfit-Bold.ttf
+        - asset: assets/fonts/Outfit-Black.ttf
+        - asset: assets/fonts/Outfit-ExtraBold.ttf
+        - asset: assets/fonts/Outfit-ExtraLight.ttf
+        - asset: assets/fonts/Outfit-Light.ttf
+        - asset: assets/fonts/Outfit-Medium.ttf
+        - asset: assets/fonts/Outfit-Regular.ttf
+        - asset: assets/fonts/Outfit-SemiBold.ttf
+        - asset: assets/fonts/Outfit-Thin.ttf
+
+flutter_native_splash:
+  image: "assets/splash.png"
+  color: "#000000"
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  adaptive_icon_background: "#9B111E"
+  adaptive_icon_foreground: "assets/logo.png"
+  image_path: "assets/logo.png"
